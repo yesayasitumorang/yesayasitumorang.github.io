@@ -13,10 +13,10 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #fab700;
 }
 ::-webkit-scrollbar-thumb {
-  background: #6e93f7;
+  background: #6ee3f7;
   border-radius: 12px;
   transition: all 0.3s ease;
 }
@@ -215,6 +215,7 @@ section .title span::after {
   width: 400px;
   object-fit: cover;
   border-radius: 12px;
+  border: 20px;
 }
 .about-details .right {
   width: 55%;
@@ -250,51 +251,6 @@ section .button button:hover {
   color: #4070f4;
 }
 
-/* My Services CSS */
-.services .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.services .boxes .box {
-  margin: 20px 0;
-  width: calc(100% / 3 - 20px);
-  text-align: center;
-  border-radius: 12px;
-  padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-  cursor: default;
-  transition: all 0.4s ease;
-}
-.services .boxes .box:hover {
-  background: #4070f4;
-  color: #fff;
-}
-.services .boxes .box .icon {
-  height: 50px;
-  width: 50px;
-  background: #4070f4;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  color: #fff;
-  margin: 0 auto 10px auto;
-  transition: all 0.4s ease;
-}
-.boxes .box:hover .icon {
-  background-color: #fff;
-  color: #4070f4;
-}
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
-  color: #0e2431;
-  transition: all 0.4s ease;
-}
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
-  color: #fff;
-}
 /* Contact Me CSS */
 .contact {
   background: #f0f8ff;
